@@ -1,0 +1,22 @@
+ 1.List Cars (POST /listCars)
+
+{
+  "city": "Hyderabad",
+  "fromDate": "2025-08-01",
+  "toDate": "2025-08-04"
+}
+
+2. Book a Car 
+{
+  "city": "Hyderabad",
+  "fromDate": "2025-08-01",
+  "toDate": "2025-08-04",
+  "carType": "SUV"
+}
+
+3. Make Payment 
+
+{
+  "bookingNumber": 1,
+  "price": 6789
+}
